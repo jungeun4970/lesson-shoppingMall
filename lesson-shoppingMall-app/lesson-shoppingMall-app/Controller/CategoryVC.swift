@@ -37,8 +37,21 @@ extension CategoryVC : UITableViewDataSource, UITableViewDelegate{
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return view.frame.height/5
     }
+    
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        performSegue(withIdentifier: <#T##String#>, sender: <#T##Any?#>)
+        let category = DataService.instance.getCategories()[indexPath.row]
+        performSegue(withIdentifier: "goToProductVC", sender: category)
+    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let productVC = segue.destination as? ProductVC{
+            assert(sender as? Category != nil)
+            productVC.initProducts(category: sender as! Category)
+            
+            let barBtn = UIBarButtonItem()
+            barBtn.title = ""
+            navigationItem.backBarButtonItem = barBtn
+            
+        }
     }
     
     

@@ -32,11 +32,11 @@ class DataService{
         Product(title: "Devlopes Hoddie Black", price: "$32", imageName: "hoodie04.png")
     ]
     private let shirts = [
-        Product(title: "Devlopes Logo Shirts Black", price: "$18", imageName: "shirts01.png"),
-        Product(title: "Devlopes Logo Shirts Light Grey", price: "$20", imageName: "shirts02.png"),
-        Product(title: "Devlopes Shirts Red", price: "$24", imageName: "shirts03.png"),
-        Product(title: "Devlopes Shirts Black", price: "$20", imageName: "shirts04.png"),
-        Product(title: "Kickfilp Studios Black", price: "$22", imageName: "shirts05.png")
+        Product(title: "Devlopes Logo Shirts Black", price: "$18", imageName: "shirt01.png"),
+        Product(title: "Devlopes Logo Shirts Light Grey", price: "$20", imageName: "shirt02.png"),
+        Product(title: "Devlopes Shirts Red", price: "$24", imageName: "shirt03.png"),
+        Product(title: "Devlopes Shirts Black", price: "$20", imageName: "shirt04.png"),
+        Product(title: "Kickfilp Studios Black", price: "$22", imageName: "shirt05.png")
     ]
     private let digitalGoods = [
         Product
@@ -50,7 +50,7 @@ class DataService{
     func getProducts(forCategoryTitle title:String) -> [Product]{
         switch title {
         case "HATS":
-            return hats
+            return getHats()
         case "HOODIES":
             return hoodies
         case "SHIRTS":
@@ -58,7 +58,7 @@ class DataService{
         case "DIGITAL":
             return digitalGoods
         default:
-            break
+            return digitalGoods
         }
     }
     func getHats() -> [Product]{

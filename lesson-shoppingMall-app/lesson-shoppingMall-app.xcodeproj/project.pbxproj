@@ -18,6 +18,7 @@
 		B92C7BE9260465C8001B38E2 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92C7BE8260465C8001B38E2 /* DataService.swift */; };
 		B92C7BED2604C1D4001B38E2 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92C7BEC2604C1D4001B38E2 /* ProductCell.swift */; };
 		B92C7BF12604C5D1001B38E2 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92C7BF02604C5D1001B38E2 /* Product.swift */; };
+		B92C7BF42604CCF8001B38E2 /* ProductVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92C7BF32604CCF8001B38E2 /* ProductVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		B92C7BE8260465C8001B38E2 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		B92C7BEC2604C1D4001B38E2 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 		B92C7BF02604C5D1001B38E2 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		B92C7BF32604CCF8001B38E2 /* ProductVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				B92C7BCB260437AF001B38E2 /* CategoryVC.swift */,
+				B92C7BF32604CCF8001B38E2 /* ProductVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 				B92C7BC8260437AF001B38E2 /* AppDelegate.swift in Sources */,
 				B92C7BE9260465C8001B38E2 /* DataService.swift in Sources */,
 				B92C7BCA260437AF001B38E2 /* SceneDelegate.swift in Sources */,
+				B92C7BF42604CCF8001B38E2 /* ProductVC.swift in Sources */,
 				B92C7BED2604C1D4001B38E2 /* ProductCell.swift in Sources */,
 				B92C7BE126043FC4001B38E2 /* CategoryCell.swift in Sources */,
 			);
