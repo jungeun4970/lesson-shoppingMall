@@ -26,7 +26,7 @@
                                 <rect key="frame" x="0.0" y="81" width="414" height="727"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="159" id="zar-aG-scw" customClass="CategoryCell" customModule="lesson_shoppingMall_app" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CategoryCell" rowHeight="159" id="zar-aG-scw" customClass="CategoryCell" customModule="lesson_shoppingMall_app" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="159"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="zar-aG-scw" id="ZAU-Pv-Htx">
