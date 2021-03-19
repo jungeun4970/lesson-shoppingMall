@@ -37,6 +37,9 @@ extension CategoryVC : UITableViewDataSource, UITableViewDelegate{
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return view.frame.height/5
     }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        performSegue(withIdentifier: <#T##String#>, sender: <#T##Any?#>)
+    }
     
     
     
